@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/my-tweets-react/static/css/main.b5b373d2.chunk.css",
-    "main.js": "/my-tweets-react/static/js/main.a7b78230.chunk.js",
-    "main.js.map": "/my-tweets-react/static/js/main.a7b78230.chunk.js.map",
-    "runtime-main.js": "/my-tweets-react/static/js/runtime-main.9f3857cb.js",
-    "runtime-main.js.map": "/my-tweets-react/static/js/runtime-main.9f3857cb.js.map",
-    "static/js/2.e756d71a.chunk.js": "/my-tweets-react/static/js/2.e756d71a.chunk.js",
-    "static/js/2.e756d71a.chunk.js.map": "/my-tweets-react/static/js/2.e756d71a.chunk.js.map",
-    "index.html": "/my-tweets-react/index.html",
-    "static/css/main.b5b373d2.chunk.css.map": "/my-tweets-react/static/css/main.b5b373d2.chunk.css.map",
-    "static/js/2.e756d71a.chunk.js.LICENSE.txt": "/my-tweets-react/static/js/2.e756d71a.chunk.js.LICENSE.txt",
-    "static/media/post.a460cf9a.jpg": "/my-tweets-react/static/media/post.a460cf9a.jpg",
-    "static/media/profile.5e7c9398.jpg": "/my-tweets-react/static/media/profile.5e7c9398.jpg",
-    "static/media/search.9fd0ea41.jpg": "/my-tweets-react/static/media/search.9fd0ea41.jpg"
+    "main.css": "/another-try-react/static/css/main.b5b373d2.chunk.css",
+    "main.js": "/another-try-react/static/js/main.9e0a8484.chunk.js",
+    "main.js.map": "/another-try-react/static/js/main.9e0a8484.chunk.js.map",
+    "runtime-main.js": "/another-try-react/static/js/runtime-main.c2e677b9.js",
+    "runtime-main.js.map": "/another-try-react/static/js/runtime-main.c2e677b9.js.map",
+    "static/js/2.e756d71a.chunk.js": "/another-try-react/static/js/2.e756d71a.chunk.js",
+    "static/js/2.e756d71a.chunk.js.map": "/another-try-react/static/js/2.e756d71a.chunk.js.map",
+    "index.html": "/another-try-react/index.html",
+    "static/css/main.b5b373d2.chunk.css.map": "/another-try-react/static/css/main.b5b373d2.chunk.css.map",
+    "static/js/2.e756d71a.chunk.js.LICENSE.txt": "/another-try-react/static/js/2.e756d71a.chunk.js.LICENSE.txt",
+    "static/media/post.a460cf9a.jpg": "/another-try-react/static/media/post.a460cf9a.jpg",
+    "static/media/profile.5e7c9398.jpg": "/another-try-react/static/media/profile.5e7c9398.jpg",
+    "static/media/search.9fd0ea41.jpg": "/another-try-react/static/media/search.9fd0ea41.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9f3857cb.js",
+    "static/js/runtime-main.c2e677b9.js",
     "static/js/2.e756d71a.chunk.js",
     "static/css/main.b5b373d2.chunk.css",
-    "static/js/main.a7b78230.chunk.js"
+    "static/js/main.9e0a8484.chunk.js"
   ]
 }
