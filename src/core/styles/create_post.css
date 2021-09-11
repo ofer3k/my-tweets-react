@@ -1,0 +1,116 @@
+:root {
+    --margin-line: #941c5a;
+    --lines: #1d97b8;
+  }
+  
+  .post_state_success{
+    width: 400px;
+    margin: 0 auto;
+    color: rgb(78, 141, 78);
+    opacity: 0.6;
+  }
+  .post_state_error{
+    width: 400px;
+    margin: 0 auto;
+    color: rgb(175, 69, 69);
+    opacity: 0.6;
+  }
+  
+  .paper {
+      margin: 0 auto;
+      margin-top: 40px;
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    background-image: linear-gradient(var(--lines) 0.05em, transparent 0.05em);
+    background-size: 100% 2em;
+    position: relative;
+    box-shadow: 15px 15px 33px rgba(27, 27, 27, 0.1);
+  }
+  .paper:before, .paper:after {
+    content: "";
+    position: absolute;
+    top: 0;
+  }
+  .paper:before {
+    height: 100%;
+    width: 2px;
+    background-color: var(--margin-line);
+    left: 4em;
+    z-index: 2;
+  }
+  .paper:after {
+    height: 6em;
+    width: 100%;
+    background-color: #fff;
+    left: 0;
+    z-index: 1;
+  }
+  .paper .holes {
+    background-color: #eee;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: block;
+    z-index: 10;
+    margin-left: 1em;
+    /* margin-top: 6em; */
+  }
+  .paper .holes:before, .paper .holes:after {
+    content: "";
+    width: 35px;
+    height: 35px;
+    background-color: #eee;
+    position: absolute;
+    border-radius: 50%;
+  }
+  .paper .holes:before {
+    top: 6rem;
+  }
+  .paper .holes:after {
+    top:14rem 
+  }
+  
+  .textarea1 {
+      cursor: pointer;
+    position: absolute;
+    top: 6rem;
+    left: 4rem;
+    width: calc(100% - 5rem);
+    height: calc(100% - 7rem);
+    background-color: transparent;
+    border: none;
+    font-family: "Comic Sans";
+    font-size: 2rem;
+    line-height: 1;
+    padding-left: 1rem;
+    margin: 0;
+    resize: none;
+  }
+  .textarea2 {
+    cursor: pointer;
+    position: absolute;
+    top: 14rem;
+    left: 4rem;
+    width: calc(100% - 5rem);
+    height: calc(100% - 7rem);
+    background-color: transparent;
+    border: none;
+    font-family: "Comic Sans";
+    font-size: 2rem;
+    line-height: 1;
+    padding-left: 1rem;
+    margin: 0;
+    resize: none;
+  }
+  .submit_post{
+    position: absolute;
+    width:'200px';
+    left: calc(50vw - 100px);
+    z-index: 2;
+    background-color: blue;
+  }
+  .flex_buttons{
+    display: flex;
+    justify-content: space-between;
+  }

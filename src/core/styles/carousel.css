@@ -1,0 +1,39 @@
+.section{
+    height: 82vh;
+    background-color: #B2BEB5	;
+}
+
+.container_main{
+    width: 90%;
+    margin: 1rem auto;
+    padding: 2rem;
+    text-align: justify;
+    transition: all 0.3s;
+}
+.fit_image{
+        width: 100%;
+        height: 400px;
+        object-fit: scale-down;
+      
+}
+.container_main p{
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+    word-spacing: 2px;
+}
+
+.container_main p:first-child::first-letter{
+    color:#FE5F55;
+    font-weight: bold;
+    font-size: 70px;
+    float: left;
+    line-height: 30px;
+    padding-right: 8px;
+}
+
+@media screen and (max-width:600px){
+    .container_main{
+        width: 100%;
+        padding: 1rem;
+    }
+}

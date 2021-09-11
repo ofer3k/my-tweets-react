@@ -1,0 +1,22 @@
+.green{
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: #4F7942;
+}
+.blue{
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: #ADEAEA;
+}
+.double{
+    margin: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    /* border-bottom: 2px solid black;
+    border-left: 2px solid black; */
+}
+.odd{
+    margin: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    /* border-top:2px solid black ;
+    border-right:2px solid black ; */
+}
