@@ -4,7 +4,7 @@ console.log(serverAPI,'serverAPI')
 const signInUser =async (user)=> {
 console.log(user)
     try {
-      const response = await axios.post(`https://3.143.230.51:8000/api/signIn/`,user);
+      const response = await axios.post(`http://3.143.230.51:8000/api/signIn/`,user);
 return(response.data)
     } catch (error) {
   return(error)  
@@ -13,7 +13,7 @@ return(response.data)
   
   const findUser = async(id)=>{
     try {
-      const response = await axios.post(`https://3.143.230.51:8000/api/readUser/`,{_id:id});
+      const response = await axios.post(`http://3.143.230.51:8000/api/readUser/`,{_id:id});
       return(response.data)
       
     } catch (error) {
@@ -23,7 +23,7 @@ return(response.data)
   const getPostsByFollowing= async(listOfUsers,limit)=>{
     console.log(listOfUsers,'listOfUsers')
     try {
-      const response = await axios.post(`https://3.143.230.51:8000/api/getPostsByFollowing/`,{list:listOfUsers});
+      const response = await axios.post(`http://3.143.230.51:8000/api/getPostsByFollowing/`,{list:listOfUsers});
       return(response.data)
     } catch (error) {
       return(error)
@@ -32,7 +32,7 @@ return(response.data)
 
   const getAllUsersForSearch= async(myEmail)=>{
     try {
-      const response = await axios.post(`https://3.143.230.51:8000/api/getAllUsersForSearch/`,{email:myEmail});
+      const response = await axios.post(`http://3.143.230.51:8000/api/getAllUsersForSearch/`,{email:myEmail});
       return(response.data)
     } catch (error) {
       return(error)
@@ -41,7 +41,7 @@ return(response.data)
   const followUser=async(myEmail,userEmail)=>{
     console.log(myEmail,userEmail)
     try {
-      const response = await axios.post(`https://3.143.230.51:8000/api/followUser/`,{myEmail,userEmail});
+      const response = await axios.post(`http://3.143.230.51:8000/api/followUser/`,{myEmail,userEmail});
       return(response.data)
     } catch (error) {
       return(error)
