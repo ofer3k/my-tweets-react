@@ -32,8 +32,9 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": " react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
+    "client-s3-deploy":"aws s3 sync build/ s3://my-app-tweets",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
