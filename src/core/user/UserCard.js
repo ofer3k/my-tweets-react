@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { followUser,unFollowUser } from '../../server';
 import '../styles/user_card.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserPlus,faUserTimes } from '@fortawesome/free-solid-svg-icons'
 import { CardHeader,Card,Avatar, CardMedia, CardContent, CardActions, IconButton } from '@material-ui/core';
 
@@ -60,7 +60,8 @@ return (
         
         <i class="fas fa-user-plus"></i>
             <button  onClick={handleSubmit}  className={amFolling?'green':"blue"} >
-                {amFolling?<FontAwesomeIcon color={'white'} size={'lg'} icon={faUserTimes} />:<FontAwesomeIcon color={'grey'} size={'lg'} icon={faUserPlus} />}
+                a
+                {/* {amFolling?<FontAwesomeIcon color={'white'} size={'lg'} icon={faUserTimes} />:<FontAwesomeIcon color={'grey'} size={'lg'} icon={faUserPlus} />} */}
                 </button>
                 
         </CardActions>

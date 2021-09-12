@@ -1,6 +1,6 @@
 import axios from 'axios'
-const serverAPI=process.env.REACT_APP_CLIENT_SERVER
-console.log(serverAPI,'serverAPI')
+// const serverAPI=process.env.REACT_APP_CLIENT_SERVER
+// console.log(serverAPI,'serverAPI')
 const signInUser =async (user)=> {
 console.log(user)
     try {
